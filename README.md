@@ -34,7 +34,6 @@ Regarding the fact that this library uses a delay to execute software SPI, it ca
 ## Test Results
 
 Some Frequency Sweep test :)
-
 ![Sweep](https://user-images.githubusercontent.com/54714609/82322982-9dfa9c80-99ec-11ea-9e1c-8bb710916de2.gif)
 ![SIN](https://user-images.githubusercontent.com/54714609/82323202-f03bbd80-99ec-11ea-81cc-d0b09c403c66.jpg)
 ![SQR](https://user-images.githubusercontent.com/54714609/82323208-f3cf4480-99ec-11ea-8527-2cb99277f20d.jpg)
