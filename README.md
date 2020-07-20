@@ -26,6 +26,11 @@ void AD9833_Init(uint16_t Wave,float FRQ,float Phase);   // Initializing AD9833
 void AD9833_SetWave(uint16_t Wave);                      // Sets Output Wave Type
 void AD9833_SetWaveData(float Frequency,float Phase);    // Sets Wave Frequency & Phase
 ```
+## Note
+Regarding the fact that this library uses a delay to execute software SPI, it can act differently with different microcontrollers. It depends on the master clock on your uC. If this library did not work for you, you have to change delay times in Write SPI function. You can do this with trial and error by adding some assembly nopes. Of course, you can use hardware SPI and add your functions to the library to avoid timing problems.
+
+
+
 ## Test Results
 
 Some Frequency Sweep test :)
